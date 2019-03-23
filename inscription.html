@@ -16,19 +16,19 @@
 <br>
 <hr>
 <form>
-<label for="nom">Nom :</label>
+<label for="nom">Nom* :</label>
 <input type="text" name="nom"/>
 <br/>
 <br/>
-<label for="prenom">Prénom :</label>
+<label for="prenom">Prénom* :</label>
 <input type="text" name="prenom"/>
 <br/>
 <br/>
-<label for="telephone">Numéro de Téléphone :  </label>
+<label for="telephone">Numéro de Téléphone* :  </label>
 <input type="text" name="telephone"/>
 <br/>
 <br/>
-<label for ="genre">Genre:</label>
+<label for ="genre">Genre*:</label>
 <br/>
 <br/>
 <label for="genre">Male :</label>
@@ -38,8 +38,12 @@
 <input type="radio" name="gender" value="Female"/>
 <br>
 <br>
-<label for="mail">Adresse Email :</label>
-<input type="email" name="mail"/>
+<label for="mail">Adresse Email* :</label>
+<input type="email" name="mail" required />
+<br/>
+<br>
+<label for="datenaissance">Date De Naissance* :</label>
+<input type="date" name="datenais" required/>
 
 
 </form>
