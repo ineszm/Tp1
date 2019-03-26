@@ -111,3 +111,23 @@ border-radius: 5px;
   
     text-align: center;
 }
+.font
+{
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(82, 134, 231);
+font-weight: bolder;
+}
+.photo1
+{
+    border-style: solid;
+    margin-left: 150px;
+    height: 310px;
+    width: 300px;
+}
+.form-control1{
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(68, 48, 141);
+font-weight: bolder;
+}
