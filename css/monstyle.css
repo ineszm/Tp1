@@ -131,3 +131,32 @@ font-weight: bolder;
     color: rgb(160, 47, 47);
 font-weight: bolder;
 }
+.font2
+{
+    font-size: 35px;
+    font-style: italic;
+ color: rgb(2, 59, 2);
+font-weight: bolder;
+margin-left: 30px;
+}
+.font3
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+.btn4
+{
+    width: 100px;
+    border-radius: 20px;
+
+}
+ul
+{
+    list-style-image: url("../images/icons8-étoile-100.png");
+}
+.ul
+{
+    list-style-image: url("../images/formalab.png")
+}
