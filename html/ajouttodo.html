@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="../css/monstyle.css"/>
 <link rel="stylesheet" href="../css/bootstrap.min.css"/>
 </head>
-<body>
+<body >
   <header class="color">
 <img src="../images/isg.gif" alt="logo" width="170"height="160" class="photo"/>
 
@@ -14,14 +14,14 @@
 
 <a href="home.html" target="_blank"><button type="button" class="btn btn-warning">Acceuil</button></a>
 </header>
-<section class="color">
+<section class="color" >
     <p class="text-center1">Description:</p>
 
-
-    <textarea class="form-control1" id="exampleFormControlTextarea1" rows="25" cols="60">
+<form method="POST" action="../php/ajouttodo.php">
+    <textarea class="form-control1" id="exampleFormControlTextarea1" rows="25" cols="60" name="txt" >
   El que quiere interesar a los demás tiene que provocarlos!
 </textarea>
-
+</form>
 </section>
 <footer class="color">
     <button type="button" class="btn2 btn-success"> Ajouter </button>
